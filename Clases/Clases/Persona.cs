@@ -11,6 +11,10 @@ namespace Clases
     {
         private string nombre;
         private int edad;
+         Persona(int e)
+        {
+            edad = e;
+        }
 
         public void MostrarEdad()
         {

@@ -5,3 +5,7 @@ C:\Users\Electronica\Documents\Clases\Clases\obj\Debug\Clases.csproj.AssemblyRef
 C:\Users\Electronica\Documents\Clases\Clases\obj\Debug\Clases.csproj.CoreCompileInputs.cache
 C:\Users\Electronica\Documents\Clases\Clases\obj\Debug\Clases.exe
 C:\Users\Electronica\Documents\Clases\Clases\obj\Debug\Clases.pdb
+C:\Users\Electronica\Documents\Lenguajes-Electronicos-6to\Clases\Clases\obj\Debug\Clases.csproj.AssemblyReference.cache
+C:\Users\Electronica\Documents\Lenguajes-Electronicos-6to\Clases\Clases\obj\Debug\Clases.csproj.CoreCompileInputs.cache
+C:\Users\Electronica\Documents\Lenguajes-Electronicos-6to\Clases\Clases\obj\Debug\Clases.exe
+C:\Users\Electronica\Documents\Lenguajes-Electronicos-6to\Clases\Clases\obj\Debug\Clases.pdb

@@ -1,0 +1,14 @@
+C:\Users\Electronica\source\repos\1-Cuenta\1-Cuenta\bin\Debug\1-Cuenta.exe.config
+C:\Users\Electronica\source\repos\1-Cuenta\1-Cuenta\bin\Debug\1-Cuenta.exe
+C:\Users\Electronica\source\repos\1-Cuenta\1-Cuenta\bin\Debug\1-Cuenta.pdb
+C:\Users\Electronica\source\repos\1-Cuenta\1-Cuenta\obj\Debug\1-Cuenta.csproj.AssemblyReference.cache
+C:\Users\Electronica\source\repos\1-Cuenta\1-Cuenta\obj\Debug\1-Cuenta.csproj.CoreCompileInputs.cache
+C:\Users\Electronica\source\repos\1-Cuenta\1-Cuenta\obj\Debug\1-Cuenta.exe
+C:\Users\Electronica\source\repos\1-Cuenta\1-Cuenta\obj\Debug\1-Cuenta.pdb
+C:\Users\Electronica\Documents\Lenguajes-Electronicos-6to\1-Cuenta\1-Cuenta\obj\Debug\1-Cuenta.csproj.AssemblyReference.cache
+C:\Users\Electronica\Documents\Lenguajes-Electronicos-6to\1-Cuenta\1-Cuenta\obj\Debug\1-Cuenta.csproj.CoreCompileInputs.cache
+C:\Users\Electronica\Documents\Lenguajes-Electronicos-6to\1-Cuenta\1-Cuenta\obj\Debug\1-Cuenta.exe
+C:\Users\Electronica\Documents\Lenguajes-Electronicos-6to\1-Cuenta\1-Cuenta\obj\Debug\1-Cuenta.pdb
+C:\Users\Electronica\Documents\Lenguajes-Electronicos-6to\1-Cuenta\1-Cuenta\bin\Debug\1-Cuenta.exe.config
+C:\Users\Electronica\Documents\Lenguajes-Electronicos-6to\1-Cuenta\1-Cuenta\bin\Debug\1-Cuenta.exe
+C:\Users\Electronica\Documents\Lenguajes-Electronicos-6to\1-Cuenta\1-Cuenta\bin\Debug\1-Cuenta.pdb

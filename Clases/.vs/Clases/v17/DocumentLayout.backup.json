@@ -1,0 +1,58 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Electronica\\Documents\\Lenguajes-Electronicos-6to\\Clases\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{FC085C79-46FD-49B3-B37A-48FA1E45B060}|Clases\\Clases.csproj|c:\\users\\electronica\\documents\\lenguajes-electronicos-6to\\clases\\clases\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FC085C79-46FD-49B3-B37A-48FA1E45B060}|Clases\\Clases.csproj|solutionrelative:clases\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC085C79-46FD-49B3-B37A-48FA1E45B060}|Clases\\Clases.csproj|c:\\users\\electronica\\documents\\lenguajes-electronicos-6to\\clases\\clases\\persona.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FC085C79-46FD-49B3-B37A-48FA1E45B060}|Clases\\Clases.csproj|solutionrelative:clases\\persona.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Electronica\\Documents\\Lenguajes-Electronicos-6to\\Clases\\Clases\\Program.cs",
+              "RelativeDocumentMoniker": "Clases\\Program.cs",
+              "ToolTip": "C:\\Users\\Electronica\\Documents\\Lenguajes-Electronicos-6to\\Clases\\Clases\\Program.cs",
+              "RelativeToolTip": "Clases\\Program.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA0AAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-28T18:58:49.747Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Persona.cs",
+              "DocumentMoniker": "C:\\Users\\Electronica\\Documents\\Lenguajes-Electronicos-6to\\Clases\\Clases\\Persona.cs",
+              "RelativeDocumentMoniker": "Clases\\Persona.cs",
+              "ToolTip": "C:\\Users\\Electronica\\Documents\\Lenguajes-Electronicos-6to\\Clases\\Clases\\Persona.cs*",
+              "RelativeToolTip": "Clases\\Persona.cs*",
+              "ViewState": "AgIAAAUAAAAAAAAAAAD4vwgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-28T18:58:49.04Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
