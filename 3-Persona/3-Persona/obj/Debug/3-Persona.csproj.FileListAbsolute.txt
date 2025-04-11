@@ -1,0 +1,7 @@
+C:\Users\Electronica\Documents\Lenguajes-Electronicos-6to\3-Persona\3-Persona\bin\Debug\3-Persona.exe.config
+C:\Users\Electronica\Documents\Lenguajes-Electronicos-6to\3-Persona\3-Persona\bin\Debug\3-Persona.exe
+C:\Users\Electronica\Documents\Lenguajes-Electronicos-6to\3-Persona\3-Persona\bin\Debug\3-Persona.pdb
+C:\Users\Electronica\Documents\Lenguajes-Electronicos-6to\3-Persona\3-Persona\obj\Debug\3-Persona.csproj.AssemblyReference.cache
+C:\Users\Electronica\Documents\Lenguajes-Electronicos-6to\3-Persona\3-Persona\obj\Debug\3-Persona.csproj.CoreCompileInputs.cache
+C:\Users\Electronica\Documents\Lenguajes-Electronicos-6to\3-Persona\3-Persona\obj\Debug\3-Persona.exe
+C:\Users\Electronica\Documents\Lenguajes-Electronicos-6to\3-Persona\3-Persona\obj\Debug\3-Persona.pdb
