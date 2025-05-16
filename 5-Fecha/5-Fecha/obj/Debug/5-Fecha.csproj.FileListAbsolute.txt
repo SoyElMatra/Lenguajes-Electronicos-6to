@@ -1,0 +1,7 @@
+C:\Users\Electronica\Documents\Lenguajes-Electronicos-6to\5-Fecha\5-Fecha\bin\Debug\5-Fecha.exe.config
+C:\Users\Electronica\Documents\Lenguajes-Electronicos-6to\5-Fecha\5-Fecha\bin\Debug\5-Fecha.exe
+C:\Users\Electronica\Documents\Lenguajes-Electronicos-6to\5-Fecha\5-Fecha\bin\Debug\5-Fecha.pdb
+C:\Users\Electronica\Documents\Lenguajes-Electronicos-6to\5-Fecha\5-Fecha\obj\Debug\5-Fecha.csproj.AssemblyReference.cache
+C:\Users\Electronica\Documents\Lenguajes-Electronicos-6to\5-Fecha\5-Fecha\obj\Debug\5-Fecha.csproj.CoreCompileInputs.cache
+C:\Users\Electronica\Documents\Lenguajes-Electronicos-6to\5-Fecha\5-Fecha\obj\Debug\5-Fecha.exe
+C:\Users\Electronica\Documents\Lenguajes-Electronicos-6to\5-Fecha\5-Fecha\obj\Debug\5-Fecha.pdb
