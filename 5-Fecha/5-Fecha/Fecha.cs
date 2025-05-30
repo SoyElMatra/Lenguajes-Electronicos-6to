@@ -11,13 +11,13 @@ namespace _5_Fecha
         private int dia;
         private int mes;
         private int año;
-        private int[] diasPorMes = { 30, 27, 30, 29, 30, 29, 30, 30, 29, 30, 29, 30 };
+        private int[] diasPorMes = { 31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31 };
 
         public Fecha(int dia, int mes, int año)
         {
-            Mes = mes;  // Primero, establecemos el mes
-            Dia = dia;  // Luego, establecemos el día
-            Año = año;
+            this.mes = mes;  
+            this.dia = dia;  
+            this.año = año;
         }
 
         public int Dia
@@ -26,10 +26,14 @@ namespace _5_Fecha
             private set
             {
                 int maxDias = diasPorMes[Mes];
-
-                // Si es febrero y es un año bisiesto, febrero tiene 29 días
-                if (Mes == 2 && EsBisiesto())
-                    maxDias = 29;
+                if (EsBisiesto() == true)
+                {
+                    Console.WriteLine("Es Bisiesto");
+                    if (Mes == 2)
+                    {
+                        maxDias = 29;
+                    }
+                }                
 
                 if (value >= 1 && value <= maxDias)
                 {
@@ -37,7 +41,6 @@ namespace _5_Fecha
                 }
                 else
                 {
-                    // Si el día es mayor al máximo, ajustamos al último día del mes
                     if (value > maxDias)
                     {
                         dia = maxDias;
@@ -72,7 +75,8 @@ namespace _5_Fecha
 
         public bool EsBisiesto()
         {
-            return (año % 4 == 0 && año % 100 != 0) || (año % 400 == 0);
+            Console.WriteLine();
+            return (año % 4 == 0);
         }
 
         public override string ToString()
