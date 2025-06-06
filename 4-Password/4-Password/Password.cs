@@ -10,59 +10,60 @@ namespace _4_Password
     {
         private int longitud;
         private string contraseña;
+        private static Random rnd = new Random();
 
+        // Constructor por defecto (8 caracteres)
         public Password()
         {
-            longitud = 0;
-            contraseña = "\0";
+            this.longitud = 8;
+            this.contraseña = GenerarPassword();
         }
+
+        // Constructor con longitud personalizada
         public Password(int longitud)
         {
             this.longitud = longitud;
+            this.contraseña = GenerarPassword();
         }
 
-        private string generarContraseña()
+        // Genera una contraseña aleatoria
+        private string GenerarPassword()
         {
-            string caracteres = "ABCDEFGHIJKLMNÑOPQRSTUVWXYZabcdefghijklmnñopqrstuvwxyz1234567890";
-            string nuevacontra = "";
+            string caracteres = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789";
+            char[] password = new char[longitud];
 
-            for (int i = 0;i < longitud; i++)
+            for (int i = 0; i < longitud; i++)
             {
-                int posicion = random.Next(caracteres.Length);
-                nuevacontraseña += caracteres[posicion];
+                password[i] = caracteres[rnd.Next(caracteres.Length)];
             }
+
+            return new string(password);
         }
 
-        public bool esFuerte()
+        // Verifica si la contraseña es fuerte (2 mayúsculas, 1 minúscula, 5 números)
+        public bool EsFuerte()
         {
-            int mayus = 0, int minus = 0, int nums = 0;
-            foreach (char letra in contraseña)
+            int mayusculas = 0, minusculas = 0, numeros = 0;
+
+            foreach (char c in contraseña)
             {
-                if (char.IsUpper(letra))
-                {
-                    mayus++;
-                }else if (char.IsLower(letra))
-                {
-                    minus++;
-                }else if (char.IsDigit(letra))
-                {
-                    nums++;
-                }
+                if (char.IsUpper(c)) mayusculas++;
+                else if (char.IsLower(c)) minusculas++;
+                else if (char.IsDigit(c)) numeros++;
             }
+
+            return mayusculas >= 2 && minusculas >= 1 && numeros >= 5;
         }
+
+        // Propiedades
         public string Contraseña
         {
-            get
-            {
-                return contraseña;
-            }
+            get { return contraseña; }
         }
+
         public int Longitud
         {
-            get
-            {
-                return longitud;
-            }
+            get { return longitud; }
         }
     }
 }

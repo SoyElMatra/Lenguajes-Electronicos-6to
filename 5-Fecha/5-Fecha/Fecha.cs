@@ -8,80 +8,78 @@ namespace _5_Fecha
 {
     class Fecha
     {
-        private int dia;
-        private int mes;
-        private int año;
-        private int[] diasPorMes = { 31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31 };
+        private int dias;
+        private int meses;
+        private int ano;
 
-        public Fecha(int dia, int mes, int año)
+        public Fecha(int Dias, int Meses, int Ano)
         {
-            this.mes = mes;  
-            this.dia = dia;  
-            this.año = año;
+            dias = Dias;
+            meses = Meses;
+            ano = Ano;
         }
 
-        public int Dia
+        public int Dias
         {
-            get { return dia; }
-            private set
-            {
-                int maxDias = diasPorMes[Mes];
-                if (EsBisiesto() == true)
-                {
-                    Console.WriteLine("Es Bisiesto");
-                    if (Mes == 2)
-                    {
-                        maxDias = 29;
-                    }
-                }                
-
-                if (value >= 1 && value <= maxDias)
-                {
-                    dia = value;
-                }
-                else
-                {
-                    if (value > maxDias)
-                    {
-                        dia = maxDias;
-                    }
-                    else
-                    {
-                        dia = 1;
-                    }
-                }
-            }
+            get { return dias; }
+            private set { dias = value; }
         }
 
-        public int Mes
+
+        public int Meses
         {
-            get { return mes; }
-            private set
-            {
-                if (value >= 1 && value <= 12)
-                {
-                    mes = value;
-                }
-                else
-                    mes = 1;
-            }
+            get { return meses; }
+            private set { meses = value; }
         }
 
-        public int Año
+        public int Ano
         {
-            get { return año; }
-            private set { año = value; }
+            get { return ano; }
+            private set { ano = value; }
         }
 
-        public bool EsBisiesto()
-        {
-            Console.WriteLine();
-            return (año % 4 == 0);
-        }
 
         public override string ToString()
         {
-            return $"{Mes.ToString("D2")}/{Dia.ToString("D2")}/{año}";
+            return string.Format("{0} {1} {2}", dias, meses, ano);
         }
+
+
+        public int validar_dia()
+        {
+            int[] diasPorMes = { 31, esBisiesto() ? 29 : 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31 };
+
+            if (meses < 1 || meses > 12)
+            {
+                dias = 1; // mes inválido, día inválido también
+            }
+            else if (dias < 1 || dias > diasPorMes[meses - 1])
+            {
+                dias = 1; // día fuera del rango para ese mes
+            }
+
+            return dias;
+        }
+
+        public int validar_mes()
+        {
+            if (meses < 1 || meses > 12)
+            {
+                meses = 1;
+            }
+            return meses;
+        }
+
+        public string validar_ano()
+        {
+            return esBisiesto() ? $"{ano} es un año bisiesto" : $"{ano} no es un año bisiesto";
+        }
+
+        private bool esBisiesto()
+        {
+            return (ano % 4 == 0 && ano % 100 != 0) || (ano % 400 == 0);
+        }
+
+
     }
 }

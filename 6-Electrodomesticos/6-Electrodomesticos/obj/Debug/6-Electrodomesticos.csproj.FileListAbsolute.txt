@@ -1,0 +1,7 @@
+C:\Users\Electronica\Documents\Lenguajes-Electronicos-6to\6-Electrodomesticos\6-Electrodomesticos\obj\Debug\6-Electrodomesticos.csproj.AssemblyReference.cache
+C:\Users\Electronica\Documents\Lenguajes-Electronicos-6to\6-Electrodomesticos\6-Electrodomesticos\obj\Debug\6-Electrodomesticos.csproj.CoreCompileInputs.cache
+C:\Users\Electronica\Documents\Lenguajes-Electronicos-6to\6-Electrodomesticos\6-Electrodomesticos\bin\Debug\6-Electrodomesticos.exe.config
+C:\Users\Electronica\Documents\Lenguajes-Electronicos-6to\6-Electrodomesticos\6-Electrodomesticos\bin\Debug\6-Electrodomesticos.exe
+C:\Users\Electronica\Documents\Lenguajes-Electronicos-6to\6-Electrodomesticos\6-Electrodomesticos\bin\Debug\6-Electrodomesticos.pdb
+C:\Users\Electronica\Documents\Lenguajes-Electronicos-6to\6-Electrodomesticos\6-Electrodomesticos\obj\Debug\6-Electrodomesticos.exe
+C:\Users\Electronica\Documents\Lenguajes-Electronicos-6to\6-Electrodomesticos\6-Electrodomesticos\obj\Debug\6-Electrodomesticos.pdb
