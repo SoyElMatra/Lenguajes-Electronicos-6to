@@ -1,0 +1,7 @@
+C:\Users\Electronica\Documents\Lenguajes-Electronicos-6to\Examen Martin\Examen Martin\obj\Debug\Examen Martin.csproj.AssemblyReference.cache
+C:\Users\Electronica\Documents\Lenguajes-Electronicos-6to\Examen Martin\Examen Martin\obj\Debug\Examen Martin.csproj.CoreCompileInputs.cache
+C:\Users\Electronica\Documents\Lenguajes-Electronicos-6to\Examen Martin\Examen Martin\bin\Debug\Examen Martin.exe.config
+C:\Users\Electronica\Documents\Lenguajes-Electronicos-6to\Examen Martin\Examen Martin\bin\Debug\Examen Martin.exe
+C:\Users\Electronica\Documents\Lenguajes-Electronicos-6to\Examen Martin\Examen Martin\bin\Debug\Examen Martin.pdb
+C:\Users\Electronica\Documents\Lenguajes-Electronicos-6to\Examen Martin\Examen Martin\obj\Debug\Examen Martin.exe
+C:\Users\Electronica\Documents\Lenguajes-Electronicos-6to\Examen Martin\Examen Martin\obj\Debug\Examen Martin.pdb

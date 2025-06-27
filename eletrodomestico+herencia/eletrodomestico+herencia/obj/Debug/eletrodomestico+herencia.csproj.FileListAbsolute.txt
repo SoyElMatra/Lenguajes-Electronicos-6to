@@ -1,7 +1,0 @@
-Z:\6 Electronica\Gomez Cid\6to\sotito\eletrodomestico+herencia\eletrodomestico+herencia\bin\Debug\eletrodomestico+herencia.exe.config
-Z:\6 Electronica\Gomez Cid\6to\sotito\eletrodomestico+herencia\eletrodomestico+herencia\bin\Debug\eletrodomestico+herencia.exe
-Z:\6 Electronica\Gomez Cid\6to\sotito\eletrodomestico+herencia\eletrodomestico+herencia\bin\Debug\eletrodomestico+herencia.pdb
-Z:\6 Electronica\Gomez Cid\6to\sotito\eletrodomestico+herencia\eletrodomestico+herencia\obj\Debug\eletrodomestico+herencia.csproj.AssemblyReference.cache
-Z:\6 Electronica\Gomez Cid\6to\sotito\eletrodomestico+herencia\eletrodomestico+herencia\obj\Debug\eletrodomestico+herencia.csproj.CoreCompileInputs.cache
-Z:\6 Electronica\Gomez Cid\6to\sotito\eletrodomestico+herencia\eletrodomestico+herencia\obj\Debug\eletrodomestico+herencia.exe
-Z:\6 Electronica\Gomez Cid\6to\sotito\eletrodomestico+herencia\eletrodomestico+herencia\obj\Debug\eletrodomestico+herencia.pdb
