@@ -37,10 +37,23 @@ namespace _8_Serie___Videojuego
             videojuegos[3].Entregar();
 
             int videojuegosEntregados = videojuegos.Count(v => v.IsEntregado());
-            Console.WriteLine($"Número de Videojuegos entregados: {videojuegosEntregados}");
+            Console.WriteLine($"Número de Videojuegos entregados: {videojuegosEntregados}\n");
 
             Videojuego videojuegoConMasHoras = videojuegos.OrderByDescending(v => v.GetHorasEstimadas()).FirstOrDefault();
-            Console.WriteLine($"Videojuego con más horas estimadas: {videojuegoConMasHoras.ToString()}");
+            Console.WriteLine($"Videojuego con más horas estimadas: {videojuegoConMasHoras.ToString()}\n");
+
+            Console.WriteLine("Ordenando series por temporadas:");
+            Array.Sort(series, (s1, s2) => s2.GetTemporadas().CompareTo(s1.GetTemporadas()));
+            foreach (var serie in series)
+            {
+                Console.WriteLine(serie.ToString());
+            }
+            Console.WriteLine("\n\nOrdenando videojuegos por horas estimadas:");
+            Array.Sort(videojuegos, (v1, v2) => v2.GetHorasEstimadas().CompareTo(v1.GetHorasEstimadas()));
+            foreach (var videojuego in videojuegos)
+            {
+                Console.WriteLine(videojuego.ToString());
+            }
         }
     }
 }
