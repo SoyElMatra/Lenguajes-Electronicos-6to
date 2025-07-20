@@ -10,12 +10,21 @@ namespace _8_Serie___Videojuego
     {
         static void Main(string[] args)
         {
+            string nombre, genero, creador;
+            int numeroTemporadas, horasEstimadas;
             Serie[] series = new Serie[5];
-            series[0] = new Serie("Breaking Bad", 5, "Drama", "Vince Gilligan");
-            series[1] = new Serie("Game of Thrones", 8, "Fantasy", "David Benioff");
-            series[2] = new Serie("Stranger Things", 3, "Sci-Fi", "The Duffer Brothers");
-            series[3] = new Serie("The Crown", 4, "Historical Drama", "Peter Morgan");
-            series[4] = new Serie("The Mandalorian", 2, "Sci-Fi", "Jon Favreau");
+            for(int i = 0; i < series.Length; i++)
+            {
+                Console.WriteLine($"Ingrese el nombre de la serie {i + 1}:");
+                nombre = Console.ReadLine();
+                Console.WriteLine($"Ingrese el número de temporadas de la serie {i + 1}:");
+                numeroTemporadas = int.Parse(Console.ReadLine());
+                Console.WriteLine($"Ingrese el género de la serie {i + 1}:");
+                genero = Console.ReadLine();
+                Console.WriteLine($"Ingrese el creador de la serie {i + 1}:");
+                creador = Console.ReadLine();
+                series[i] = new Serie(nombre, numeroTemporadas, genero, creador);
+            }
 
             series[0].Entregar();
             series[2].Entregar();
@@ -27,11 +36,18 @@ namespace _8_Serie___Videojuego
             Console.WriteLine($"Serie con más temporadas: {serieConMasTemporadas.ToString()}");
 
             Videojuego[] videojuegos = new Videojuego[5];
-            videojuegos[0] = new Videojuego("The Witcher 3", 50, "RPG", "CD Projekt Red");
-            videojuegos[1] = new Videojuego("God of War", 20, "Action", "Santa Monica Studio");
-            videojuegos[2] = new Videojuego("Minecraft", 30, "Sandbox", "Mojang");
-            videojuegos[3] = new Videojuego("The Legend of Zelda: Breath of the Wild", 60, "Adventure", "Nintendo");
-            videojuegos[4] = new Videojuego("Cyberpunk 2077", 40, "RPG", "CD Projekt Red");
+            for (int i = 0; i < videojuegos.Length; i++)
+            {
+                Console.WriteLine($"Ingrese el nombre del videojuego {i + 1}:");
+                nombre = Console.ReadLine();
+                Console.WriteLine($"Ingrese las horas estimadas del videojuego {i + 1}:");
+                horasEstimadas = int.Parse(Console.ReadLine());
+                Console.WriteLine($"Ingrese el género del videojuego {i + 1}:");
+                genero = Console.ReadLine();
+                Console.WriteLine($"Ingrese el creador del videojuego {i + 1}:");
+                creador = Console.ReadLine();
+                videojuegos[i] = new Videojuego(nombre, horasEstimadas, genero, creador);
+            }
 
             videojuegos[0].Entregar();
             videojuegos[3].Entregar();

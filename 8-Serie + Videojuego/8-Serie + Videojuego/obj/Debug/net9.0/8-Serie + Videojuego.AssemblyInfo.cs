@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("8-Serie + Videojuego")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+56a8bcd2ed0865e179b905434a52bef5edd5bb70")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+bf062e877fde790a0408c56aebd60eeb38ae78a0")]
 [assembly: System.Reflection.AssemblyProductAttribute("8-Serie + Videojuego")]
 [assembly: System.Reflection.AssemblyTitleAttribute("8-Serie + Videojuego")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "Xe1YlARv4YY=",
+  "dgSpecHash": "YGa3mJ3W0zw=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Electronica\\Documents\\Lenguajes-Electronicos-6to\\8-Serie + Videojuego\\8-Serie + Videojuego\\8-Serie + Videojuego.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "/mnt/Guardados/Documentos/Lenguajes-Electronicos-6to/8-Serie + Videojuego/8-Serie + Videojuego/8-Serie + Videojuego.csproj",
+  "expectedPackageFiles": [
+    "/home/matra/.nuget/packages/microsoft.aspnetcore.app.ref/9.0.5/microsoft.aspnetcore.app.ref.9.0.5.nupkg.sha512"
+  ],
   "logs": []
 }
