@@ -1,0 +1,7 @@
+C:\Users\Electronica\Documents\Fuscochetta\Fuscochetta\bin\Debug\Fuscochetta.exe.config
+C:\Users\Electronica\Documents\Fuscochetta\Fuscochetta\bin\Debug\Fuscochetta.exe
+C:\Users\Electronica\Documents\Fuscochetta\Fuscochetta\bin\Debug\Fuscochetta.pdb
+C:\Users\Electronica\Documents\Fuscochetta\Fuscochetta\obj\Debug\Fuscochetta.csproj.AssemblyReference.cache
+C:\Users\Electronica\Documents\Fuscochetta\Fuscochetta\obj\Debug\Fuscochetta.csproj.CoreCompileInputs.cache
+C:\Users\Electronica\Documents\Fuscochetta\Fuscochetta\obj\Debug\Fuscochetta.exe
+C:\Users\Electronica\Documents\Fuscochetta\Fuscochetta\obj\Debug\Fuscochetta.pdb

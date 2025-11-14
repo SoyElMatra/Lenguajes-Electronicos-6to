@@ -1,7 +1,0 @@
-C:\Users\Electronica\source\repos\2-Cuenta2\2-Cuenta2\bin\Debug\2-Cuenta2.exe.config
-C:\Users\Electronica\source\repos\2-Cuenta2\2-Cuenta2\bin\Debug\2-Cuenta2.exe
-C:\Users\Electronica\source\repos\2-Cuenta2\2-Cuenta2\bin\Debug\2-Cuenta2.pdb
-C:\Users\Electronica\source\repos\2-Cuenta2\2-Cuenta2\obj\Debug\2-Cuenta2.csproj.AssemblyReference.cache
-C:\Users\Electronica\source\repos\2-Cuenta2\2-Cuenta2\obj\Debug\2-Cuenta2.csproj.CoreCompileInputs.cache
-C:\Users\Electronica\source\repos\2-Cuenta2\2-Cuenta2\obj\Debug\2-Cuenta2.exe
-C:\Users\Electronica\source\repos\2-Cuenta2\2-Cuenta2\obj\Debug\2-Cuenta2.pdb
